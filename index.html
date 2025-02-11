@@ -6,37 +6,74 @@
     <title>Perché GitHub è Fantastico!</title>
     <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJv+4pFk9vYmbc7pq3ZZtrNEzVoWhAt/VA4s9p0lRok6Iepw6glRzxdS3iE" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #f4f7fa;
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-top: 50px;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            border-radius: 8px 8px 0 0;
+        }
+        h1 {
+            font-size: 2.5rem;
+        }
+        h2 {
+            font-size: 1.8rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            font-size: 1.2rem;
+            background-color: #f9f9f9;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border-radius: 0 0 8px 8px;
+        }
+    </style>
 </head>
-<body class="bg-light text-dark">
+<body>
 
-    <header class="bg-primary text-white text-center py-5">
-        <h1 class="display-4">GitHub: Un Mondo di Possibilità!</h1>
-    </header>
+    <div class="container text-center">
+        <header>
+            <h1>GitHub: Un Mondo di Possibilità!</h1>
+        </header>
 
-    <div class="container my-5">
-        <h2 class="text-primary">Perché GitHub è così Bello?</h2>
-        <ul class="list-group">
-            <li class="list-group-item">
-                <strong>Collaborazione Globale:</strong> GitHub permette a milioni di sviluppatori di collaborare insieme a progetti open source, scambiandosi idee e migliorando il software.
-            </li>
-            <li class="list-group-item">
-                <strong>Controllo Versioni:</strong> Grazie a Git, ogni modifica al codice è tracciata, rendendo facile tornare a versioni precedenti o risolvere conflitti.
-            </li>
-            <li class="list-group-item">
-                <strong>Integrazione Continua:</strong> Con strumenti come GitHub Actions, puoi automatizzare il testing, il deploy e altre operazioni per migliorare il flusso di lavoro.
-            </li>
-            <li class="list-group-item">
-                <strong>Progetti Open Source:</strong> GitHub ospita una vasta quantità di progetti open source che arricchiscono l'ecosistema tecnologico mondiale.
-            </li>
-            <li class="list-group-item">
-                <strong>Portafoglio Online:</strong> Puoi usare GitHub come un portafoglio per mostrare il tuo lavoro, sia che tu sia un principiante o un esperto.
-            </li>
-        </ul>
+        <section>
+            <h2>Perché GitHub è così Bello?</h2>
+            <ul class="list-unstyled">
+                <li><strong>Collaborazione Globale:</strong> GitHub permette a milioni di sviluppatori di collaborare insieme a progetti open source, scambiandosi idee e migliorando il software.</li>
+                <li><strong>Controllo Versioni:</strong> Grazie a Git, ogni modifica al codice è tracciata, rendendo facile tornare a versioni precedenti o risolvere conflitti.</li>
+                <li><strong>Integrazione Continua:</strong> Con strumenti come GitHub Actions, puoi automatizzare il testing, il deploy e altre operazioni per migliorare il flusso di lavoro.</li>
+                <li><strong>Progetti Open Source:</strong> GitHub ospita una vasta quantità di progetti open source che arricchiscono l'ecosistema tecnologico mondiale.</li>
+                <li><strong>Portafoglio Online:</strong> Puoi usare GitHub come un portafoglio per mostrare il tuo lavoro, sia che tu sia un principiante o un esperto.</li>
+            </ul>
+        </section>
+        
+        <footer>
+            <p>&copy; 2025 GitHub è bellissimo! | Creato con passione</p>
+        </footer>
     </div>
-
-    <footer class="bg-primary text-white text-center py-3">
-        <p>&copy; 2025 GitHub è bellissimo! | Creato con passione</p>
-    </footer>
 
     <!-- Bootstrap JS e dipendenze -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gyb3X2ZLPJxJa7t1I5R+HO3Qxcz9HaKm38pP0Dsq8g8vLpVrB3" crossorigin="anonymous"></script>
